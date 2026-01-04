@@ -33,7 +33,7 @@ let ytName = atob('aHR0cHM6Ly95b3V0dWJlLmNvbS9AYW1fY2x1YnM/c3ViX2NvbmZpcm1hdGlvb
 let tgName = atob('aHR0cHM6Ly90Lm1lL2FtX2NsdWJz');
 let ghName = atob('aHR0cHM6Ly9naXRodWIuY29tL2FtY2x1YnMvYW0tY2YtdHVubmVs');
 let bName = atob('aHR0cHM6Ly9hbWNsdWJzcy5jb20=');
-let pName = '5pWw5a2X5aWX5Yip';
+let pName = '5Zeo6LW35p2lfgo=';
 
 import { connect } from 'cloudflare:sockets';
 
