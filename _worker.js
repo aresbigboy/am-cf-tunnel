@@ -23,7 +23,7 @@ let s5 = '';
 let s5Enable = false;
 let parsedS5 = {};
 
-let durl = atob('aHR0cHM6Ly9za3kucmV0aGlua2Rucy5jb20vMTotUGZfX19fXzlfOEFfQU1BSWdFOGtNQUJWRERtS09IVEFLZz0=');
+let durl = atob('aHR0cHM6Ly93d3cubWljcm9zb2Z0LmNvbS9lbi11cy8K');
 let fname = atob('5Zeo6LW35p2lfgo=');
 const dataTypeTr = 'EBMbCxUX';
 let enableLog = false;
