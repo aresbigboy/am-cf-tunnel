@@ -9,7 +9,7 @@ let id = atob('ZWM4NzJkOGYtNzJiMC00YTA0LWI2MTItMDMyN2Q4NWUxOGVk');
 
 let pnum = atob('NDQz');
 let paddrs = [
-    atob('cC14aWFvdHQuZHludjYubmV0Cg==')
+    atob('cC14aWFvdHQuZHludjYubmV0')
 ];
 let paddr = paddrs[Math.floor(Math.random() * paddrs.length)];
 let pDomain = [];
@@ -23,8 +23,8 @@ let s5 = '';
 let s5Enable = false;
 let parsedS5 = {};
 
-let durl = atob('aHR0cHM6Ly93d3cubWljcm9zb2Z0LmNvbS9lbi11cy8K');
-let fname = atob('5Zeo6LW35p2lfgo=');
+let durl = atob('aHR0cHM6Ly93d3cubWljcm9zb2Z0LmNvbS9lbi11cy8=');
+let fname = atob('5Zeo6LW35p2lfg==');
 const dataTypeTr = 'EBMbCxUX';
 let enableLog = false;
 
@@ -32,7 +32,7 @@ let ytName = atob('aHR0cHM6Ly95b3V0dWJlLmNvbS9AYW1fY2x1YnM/c3ViX2NvbmZpcm1hdGlvb
 let tgName = atob('aHR0cHM6Ly90Lm1lL2FtX2NsdWJz');
 let ghName = atob('aHR0cHM6Ly9naXRodWIuY29tL2FtY2x1YnMvYW0tY2YtdHVubmVs');
 let bName = atob('aHR0cHM6Ly9hbWNsdWJzcy5jb20=');
-let pName = '5Zeo6LW35p2lfgo=';
+let pName = '5Zeo6LW35p2lfg==';
 
 import { connect } from 'cloudflare:sockets';
 
