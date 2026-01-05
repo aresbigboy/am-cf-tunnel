@@ -9,7 +9,6 @@ let id = atob('ZWM4NzJkOGYtNzJiMC00YTA0LWI2MTItMDMyN2Q4NWUxOGVk');
 
 let pnum = atob('NDQz');
 let paddrs = [
-    atob('Y2RuLWFsbC54bi0tYjZnYWMuZXUub3JnCg=='),
     atob('Y2RuLnhuLS1iNmdhYy5ldS5vcmcK')
 ];
 let paddr = paddrs[Math.floor(Math.random() * paddrs.length)];
@@ -25,7 +24,7 @@ let s5Enable = false;
 let parsedS5 = {};
 
 let durl = atob('aHR0cHM6Ly9za3kucmV0aGlua2Rucy5jb20vMTotUGZfX19fXzlfOEFfQU1BSWdFOGtNQUJWRERtS09IVEFLZz0=');
-let fname = atob('5pWw5a2X5aWX5Yip');
+let fname = atob('5Zeo6LW35p2lfgo=');
 const dataTypeTr = 'EBMbCxUX';
 let enableLog = false;
 
