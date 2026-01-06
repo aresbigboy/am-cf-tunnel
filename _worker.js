@@ -9,8 +9,7 @@ let id = atob('ZWM4NzJkOGYtNzJiMC00YTA0LWI2MTItMDMyN2Q4NWUxOGVk');
 
 let pnum = atob('NDQz');
 let paddrs = [
-    atob('cHJveHlpcDEueHR0LmNsb3VkbnMuYmU='),
-    atob('cHJveHlpcDIueHR0LmNsb3VkbnMuYmU=')
+    atob('cC14aWFvdHQuZHludjYubmV0')
 ];
 let paddr = paddrs[Math.floor(Math.random() * paddrs.length)];
 let pDomain = [];
