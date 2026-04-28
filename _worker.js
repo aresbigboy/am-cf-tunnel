@@ -7,26 +7,26 @@
 
 let id = atob('ZWM4NzJkOGYtNzJiMC00YTA0LWI2MTItMDMyN2Q4NWUxOGVk');
 
-let pnum = atob('NDQz');
 let paddrs = [
     atob('cHJveHlpcDEueHR0LmNsb3VkbnMuYmU='),
     atob('cHJveHlpcDIueHR0LmNsb3VkbnMuYmU=')
 ];
-let paddr = paddrs[Math.floor(Math.random() * paddrs.length)];
-let pDomain = [];
+let paddrDefaul = paddrs[Math.floor(Math.random() * paddrs.length)];
+let pnumDefaul = atob('NDQz');
+let pDomainDefaul = [];
 
-let p64 = true;
+let p64Defaul = true;
 let p64DnUrl = atob('aHR0cHM6Ly8xLjEuMS4xL2Rucy1xdWVyeQ==');
-let p64Prefix = atob('MmEwMDoxMDk4OjJjOjo1Og==');
-let p64Domain = [];
+let p64PrefixDefaul = atob('MmEwMDoxMDk4OjJjOjo1Og==');
+let p64DomainDefaul = [];
 
-let s5 = '';
-let s5Enable = false;
-let parsedS5 = {};
+let s5Defaul = '';
+let s5EnableDefaul = false;
+let parsedS5Defaul = {};
 
-let durl = atob('aHR0cHM6Ly93d3cubWljcm9zb2Z0LmNvbS9lbi11cy8=');
-let fname = atob('WFRUIE9L');
-const dataTypeTr = 'EBMbCxUX';
+let durlDefaul = atob('aHR0cHM6Ly93d3cubWljcm9zb2Z0LmNvbS9lbi11cy8=');
+let fname = atob('5pWw5a2X5aWX5Yip');
+const dataTypeTr = 'WFRUIE9L';
 let enableLog = false;
 
 let ytName = atob('aHR0cHM6Ly95b3V0dWJlLmNvbS9AYW1fY2x1YnM/c3ViX2NvbmZpcm1hdGlvbj0x');
