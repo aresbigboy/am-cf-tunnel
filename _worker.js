@@ -7,25 +7,25 @@
 
 let id = atob('ZWM4NzJkOGYtNzJiMC00YTA0LWI2MTItMDMyN2Q4NWUxOGVk');
 
+let pnum = atob('NDQz');
 let paddrs = [
-    atob('cHJveHlpcC5hbWNsdWJzLmNhbWR2ci5vcmc='),
-    atob('cHJveHlpcC5hbWNsdWJzLmtvem93LmNvbQ==')
+    atob('cHJveHlpcDEueHR0LmNsb3VkbnMuYmU='),
+    atob('cHJveHlpcDIueHR0LmNsb3VkbnMuYmU=')
 ];
-let paddrDefaul = paddrs[Math.floor(Math.random() * paddrs.length)];
-let pnumDefaul = atob('NDQz');
-let pDomainDefaul = [];
+let paddr = paddrs[Math.floor(Math.random() * paddrs.length)];
+let pDomain = [];
 
-let p64Defaul = false;
+let p64 = true;
 let p64DnUrl = atob('aHR0cHM6Ly8xLjEuMS4xL2Rucy1xdWVyeQ==');
-let p64PrefixDefaul = atob('MjYwMjpmYzU5OmIwOjY0Ojo=');
-let p64DomainDefaul = [];
+let p64Prefix = atob('MmEwMDoxMDk4OjJjOjo1Og==');
+let p64Domain = [];
 
-let s5Defaul = '';
-let s5EnableDefaul = false;
-let parsedS5Defaul = {};
+let s5 = '';
+let s5Enable = false;
+let parsedS5 = {};
 
-let durlDefaul = atob('aHR0cHM6Ly9za3kucmV0aGlua2Rucy5jb20vMTotUGZfX19fXzlfOEFfQU1BSWdFOGtNQUJWRERtS09IVEFLZz0=');
-let fname = atob('5pWw5a2X5aWX5Yip');
+let durl = atob('aHR0cHM6Ly93d3cubWljcm9zb2Z0LmNvbS9lbi11cy8=');
+let fname = atob('WFRUIE9L');
 const dataTypeTr = 'EBMbCxUX';
 let enableLog = false;
 
@@ -33,7 +33,7 @@ let ytName = atob('aHR0cHM6Ly95b3V0dWJlLmNvbS9AYW1fY2x1YnM/c3ViX2NvbmZpcm1hdGlvb
 let tgName = atob('aHR0cHM6Ly90Lm1lL2FtX2NsdWJz');
 let ghName = atob('aHR0cHM6Ly9naXRodWIuY29tL2FtY2x1YnMvYW0tY2YtdHVubmVs');
 let bName = atob('aHR0cHM6Ly9hbWNsdWJzcy5jb20=');
-let pName = '5pWw5a2X5aWX5Yip';
+let pName = 'WFRUIE9L';
 
 import { connect } from 'cloudflare:sockets';
 
@@ -130,7 +130,7 @@ function error(...args) {
 }
 
 function isValidUserId(uuid) {
-    const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[4][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+    const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
     return uuidRegex.test(uuid);
 }
 
