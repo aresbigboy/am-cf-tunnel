@@ -8,8 +8,9 @@
 let id = atob('ZWM4NzJkOGYtNzJiMC00YTA0LWI2MTItMDMyN2Q4NWUxOGVk');
 
 let paddrs = [
-    atob('cHJveHlpcDEueHR0LmNsb3VkbnMuYmU='),
-    atob('cHJveHlpcDIueHR0LmNsb3VkbnMuYmU=')
+    // atob('cHJveHlpcDEueHR0LmNsb3VkbnMuYmU='), //proxyip1.xtt.cloudns.be
+    // atob('cHJveHlpcDIueHR0LmNsb3VkbnMuYmU=')  //proxyip2.xtt.cloudns.be
+    atob('cHJveHkueHR0LmNsb3VkbnMuYmU=') //proxy.xtt.cloudns.be
 ];
 let paddrDefaul = paddrs[Math.floor(Math.random() * paddrs.length)];
 let pnumDefaul = atob('NDQz');
